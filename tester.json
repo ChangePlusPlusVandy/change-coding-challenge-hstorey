@@ -1,1 +1,2 @@
-GET https://api.twitter.com/1.1/statuses/user_timeline.json?elonmusk=twitterapi&count=2
+curl -X GET -H "Authorization: Bearer AAAAAAAAAAAAAAAAAAAAALpVHwEAAAAA3pnEdfFWsrNLboFLXour9qfUkJQ%3DEU2dh4Nzn3Kh51qrZzmO0bQvKJhHN79Ui4qxAKFXUeTCVYksfo" "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=kanyewest&count=100"
+curl -X GET -H "Authorization: Bearer AAAAAAAAAAAAAAAAAAAAALpVHwEAAAAA3pnEdfFWsrNLboFLXour9qfUkJQ%3DEU2dh4Nzn3Kh51qrZzmO0bQvKJhHN79Ui4qxAKFXUeTCVYksfo" "https://api.twitter.com/1.1/ststuses/user_timeline.json?screen_name=elonmusk&count=100"
